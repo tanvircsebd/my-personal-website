@@ -1,0 +1,129 @@
+body{
+    margin-left: 50px;
+    padding-left: 20px; 
+    font-family: 'Poppins', sans-serif;
+
+}
+
+h1{
+    font-size: 30px;
+}
+#name-part{
+    margin-top: 120px;
+    margin-left: 100px;
+}
+#upper-image{
+    margin-top: 100px;
+}
+.name-highlight{
+    /* color: #c71a54; */
+    color:#f7748b;
+}
+.half-width{
+    width: 35%;
+    float: left;
+    margin-left:5%;
+    padding-left: 2%;
+}
+
+.half-width img{
+    width: 100%;
+}
+
+.upper-sec{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+}
+.upper-sec p{
+    font-size: small;
+}
+
+section{
+    height: 500px;
+    width: 900px;
+    margin: auto;
+    /* padding-bottom: 150px; */
+}
+.hire-me-btn{
+    /* text-decoration: none; */
+    /* background-image: -o-repeating-linear-gradient(#c71a54); */
+    /* background-image: linear-gradient( 45deg, #c71a54,#f7748b); */ 
+    /* background-color: #f7748b;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: 700;
+     */
+  background-color: #f7748b;
+  border: none;
+  color: white;
+  padding: 18px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.bio-section{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+}
+/* .bio-section img{
+    
+} */
+/* .my-latest-work{
+    float: left;
+} */
+#peter-dream{
+    margin-top: 20px;
+
+}
+
+.my-latest-work{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+}
+.one-third-width{
+    float: left;
+    width: 30%;
+    padding: 5px;
+}
+/* .my-latest-work::after {
+    content: "";
+    clear: both;
+    display: table;
+  } */
+
+  .one-third-width img{
+      width: 30%;
+  }
+  .my-latest-work h1{
+    display:block;
+  }
+  .lower-sec{
+      width: 100%;
+      float: left;
+      text-align: center;
+  }
+  .lower-sec{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: 75%, 75%;
+    background-position: center;
+
+}
+  .clients{
+      margin: auto;
+      padding: auto;
+      height: 125px;
+  }
+  #contact{
+      margin-left: 300px;
+      margin-right: 300px;
+      background-color: #f7748b;
+      
+  }
